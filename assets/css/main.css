@@ -1624,7 +1624,7 @@
 
 	body {
 		background-color: #B0A18E;		
-		background-image: linear-gradient(to top, rgba(73, 65, 44, 0.8), rgba(176, 161, 142, 0.5)), url("../../images/Tinkatuli.JPG");
+		background-image: linear-gradient(to top, rgba(168, 174, 89, 0.8), rgba(249, 240, 215, 0.5)), url("../../images/Tinkatuli.JPG");
 		background-size: auto, cover;
 		background-attachment: fixed, fixed;
 		background-position: center, center;
@@ -2727,7 +2727,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: rgba(38, 34, 22, 0.95);
+		background-color: rgba(68, 51, 51, 0.95);
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3036,6 +3036,7 @@
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
+			color: #bf1e2e;
 		}
 
 		#banner .logo {
@@ -3081,10 +3082,11 @@
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			border-bottom: solid 2px rgba(191, 30, 46, 0.125);
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
+			color: #bf1e2e;
 		}
 
 		#banner p {
@@ -3270,13 +3272,13 @@
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-color: #344433;
 		margin: 6.5em 0;
 		position: relative;
 	}
 
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%232e3141;' /%3E%3C/svg%3E");
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23344433;' /%3E%3C/svg%3E");
 		}
 
 		.wrapper:before, .wrapper:after {
@@ -3364,11 +3366,11 @@
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #344433;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96;' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23344433;' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight .inner {
@@ -3417,19 +3419,23 @@
 			}
 
 			.wrapper.spotlight.style2 {
-				background-color: #45558d;
+				background-color: #30682B;
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2345558d;' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%2330682B;' /%3E%3C/svg%3E");
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #3f4e85;
+				background-color: #6F1916;
 			}
+				.wrapper.spotlight.style3.image{
+					width: 15em;
+					display: inline-block;
+				}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233f4e85;' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%236F1916;' /%3E%3C/svg%3E");
 				}
 
 			.wrapper.spotlight.style4 {
