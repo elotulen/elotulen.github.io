@@ -3427,7 +3427,8 @@
 				}
 
 			.wrapper.spotlight.style3 {
-				background-color: #6F1916;
+				background-color: #3B643F;
+				
 			}
 				.wrapper.spotlight.style3.image{
 					width: 15em;
@@ -3435,7 +3436,7 @@
 				}
 
 				.wrapper.spotlight.style3:before, .wrapper.spotlight.style3:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%236F1916;' /%3E%3C/svg%3E");
+					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%233B643F;' /%3E%3C/svg%3E");
 				}
 
 			.wrapper.spotlight.style4 {
