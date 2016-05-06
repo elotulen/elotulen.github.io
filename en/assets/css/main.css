@@ -3036,7 +3036,8 @@
 		#banner .inner {
 			margin: 0 auto;
 			width: 55em;
-			color: #FF263C;
+			color: #bf1e2e;
+			text-shadow: 1px 1px 5px white;
 		}
 
 		#banner .logo {
@@ -3082,11 +3083,14 @@
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			border-bottom: solid 2px #FF263C;
+			border-bottom: solid 2px #bf1e2e;
 			font-size: 2.25em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
-			color: #FF263C;
+			color: #bf1e2e;
+			text-shadow: 1px 1px 5px white;
+			/*box-shadow: 0px 1px rgba(255, 255, 255, 1);*/
+
 		}
 
 		#banner p {
